@@ -23,9 +23,10 @@ ii- managed-sc: eks by default provides storage classes by default, to check thi
 
 which can be used in your persistent volume claim configuration for your deployments
 
+
 References:
 
-
+[kubernetes storages](https://kubernetes.io/docs/concepts/storage/)
 
 above are some of the links, used to complete the project.
 

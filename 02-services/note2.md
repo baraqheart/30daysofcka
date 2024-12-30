@@ -1,6 +1,6 @@
 ## Services Types
 What are services
-Service is a kuberneted component used to expose pods to the neccessary 
+Service is a kubernetes component used to expose pods to the neccessary 
 resource that need to consume it, a pod on its own has ip address in which
 can be used to expose it, but due to instability of a pod a service is needed to 
 expose it, this is simple terms means, pods somtimes needs to restart or 
@@ -19,5 +19,4 @@ there are 4 types are service:
 
 - Loadbalancer: 
 
-- ExternalIp: this is   used to connect a database on the cloud
-to your clusturs
+- ExternalIp: this is used for external resources usually cloud resources like database connection on the cloud to your clusters

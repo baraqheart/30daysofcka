@@ -40,7 +40,7 @@ env:
 
 
 - configmap: is used when the details involved is not sensitive data, 
-this will be available to pod to consume as variables or volumes.
+this will be available to pod to consume as environment variables or volumes.
 example below is a file used to create configmap
 
 iii. create a file configmap.yaml and copy code below
