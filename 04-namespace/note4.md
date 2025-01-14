@@ -1,7 +1,5 @@
 ## Namespces
-Namespcaces are logical way of grouping kubernetes objects in a cluster, and can also be used
-to define several properties of a group of resources such as networking, sucurity and resource 
-management
+Namespcaces are logical way of grouping kubernetes objects in a cluster, and can also be used to define several properties of a group of resources such as networking, security and resource management
 
 By default most cluster have 4 namespaces, which are listed below:
 
@@ -9,8 +7,7 @@ to get the list of available namespces use the command
 
 ` kubectl get namespace `
 
-- default: every newly created k8s objects is automatically assigned the default namespace, 
-  when no namespace was specified during creation
+- default: every newly created k8s objects is automatically assigned the default     namespace, if no namespace was specified during creation
 
 - kube-node-lease: this is used to monitor node heartbeat lease used by kubelet to
   get node availability
@@ -18,8 +15,7 @@ to get the list of available namespces use the command
 - kube-public: this is namespace is publicly available to all users, it is mostly
   use to share configuration between namespaces
 
-- kube-system: this namespace contains the controll plane components such as etcd, controller 
-  manager, apiserver, and scheduler. these are managed by kubernetes
+- kube-system: this namespace contains the controll plane components such as etcd, controller manager, apiserver, and scheduler. these are managed by kubernetes
 
 here is a way to check which api-resources is scoped at namespace level
 ` kubectl api-resources --namespaced==true `

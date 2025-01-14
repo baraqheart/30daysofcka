@@ -1,6 +1,6 @@
 ### Health probe
-There are 3 probes used to maintain the state and lifecycle of a pod,
-each which its unique abilities should be used with great precaution
+There are 3 different probes used to maintain the state and lifecycle of a pod,
+each which its unique abilities should be used with great precaution.
 
 ### LivenessProbe: 
 kubelet uses this probe to know when to restart an applications that catch a

@@ -69,3 +69,4 @@ env:
 ```
 
 this is how to read configmap and secret in to a pod or deployment
+secret and  configmap can also be red as volumes in to a pod.

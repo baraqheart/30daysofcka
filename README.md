@@ -1,1 +1,2 @@
-this 
+This file contains documentation of learning kubernetes administration
+tagged 30daysofaks
