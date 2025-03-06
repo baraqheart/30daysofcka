@@ -3,7 +3,7 @@
 
 i. imperative way
 
-```
+```yaml
 kind create cluster 
 ```
 
@@ -30,7 +30,7 @@ extraPortMappings:
 
 - lets, apply the kind.yaml file to create our cluster
 
-```
+```yaml
 kind create cluster --config kind.yaml --name cluster-app-project
 
 ```
